@@ -1,0 +1,5 @@
+export { ThreeBedRoomLanding } from './threeBedroomLanding'
+export { ThreeBedRoomVideo } from './threeBedroomVideo'
+export { ThreeBedRoomSectionOne } from './threeBedroomSectionOne'
+export { ThreeBedRoomSectionTwo } from './threeBedroomSectionTwo'
+export { ThreeBedRoomSectionThree } from './threeBedroomSectionThree'
