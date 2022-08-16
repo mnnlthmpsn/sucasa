@@ -1,7 +1,7 @@
 export const ThreeBedRoomSectionOne = () => {
     return (
         <div className="snap-end h-screen w-screen flex flex-col">
-            <div className="h-2/3 w-full bg-red-500">
+            <div className="h-2/3 w-full">
                 <img src="/images/3_bed_room_1.png" alt="Three_bed_room_1" className="h-full w-screen object-cover object-center" />
             </div>
             <div className="grow container items-start pt-10 gap-x-10 grid lg:grid-cols-3">
