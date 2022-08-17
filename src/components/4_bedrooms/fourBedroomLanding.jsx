@@ -5,7 +5,7 @@ export const FourBedRoomLanding = () => {
             <div className="container absolute h-screen top-0 inset-0">
                 <div>
                     <p className="text-center font-gothamBold text-[45px] pt-[12vh]">4 Bedrooms</p>
-                    <p className="font-semibold text-center ">Some short text here for 4 Bedrooms</p>
+                    <p className="font-semibold text-center ">Order now for 16 week delivery</p>
                 </div>
                 <div className="flex justify-center pt-[70vh] text-white space-x-6">
                     <p>Four bedrooms</p>

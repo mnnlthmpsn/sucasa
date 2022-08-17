@@ -5,8 +5,10 @@ export const Header = ({ color }) => {
     const { navigateTo } = useUtilities()
 
     const menuItems = [
-        { title: '4 Bedrooms', route: '/four-bed-rooms' },
-        { title: '3 Bedrooms', route: '/three-bed-rooms' },
+        { title: '4 Bedroom', route: '/four-bed-rooms' },
+        { title: '4 Bedroom EXT', route: '/four-bed-rooms' },
+        { title: '3 Bedroom', route: '/three-bed-rooms' },
+        { title: '3 Bedroom EXT', route: '/three-bed-rooms' },
         { title: '2 Bedrooms', route: '/two-bed-rooms' },
     ]
 
@@ -16,13 +18,14 @@ export const Header = ({ color }) => {
                 <div className='cursor-pointer' onClick={() => navigateTo('/')}>
                     <img src="/images/logo_full.png" alt="logo" className='h-24 w-auto' />
                 </div>
-                <div className="flex space-x-8">
+                <div className="flex space-x-2">
                     {menuItems.map((menuItem, index) => (
                         <p className="menu-link" onClick={() => navigateTo(menuItem.route)} key={index}>{menuItem.title}</p>
                     ))}
                 </div>
-                <div className="flex space-x-8">
+                <div className="flex space-x-2">
                     <p className="menu-link">Shop</p>
+                    <p className="menu-link">Blog</p>
                     <p className="menu-link">Menu</p>
                 </div>
             </div>

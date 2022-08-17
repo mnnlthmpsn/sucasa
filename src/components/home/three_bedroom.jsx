@@ -12,11 +12,11 @@ export const ThreeBedRoom = () => {
                 <div className="container">
                     <div className="text-white">
                         <p className="text-center font-gothamBold text-[45px] pt-[12vh]">3 Bedrooms</p>
-                        <p className="font-semibold text-center ">Order online for touchless delivery</p>
+                        <p className="font-semibold text-center ">Order now for 16 week delivery</p>
                     </div>
                     <div className="flex justify-center pt-[60vh] space-x-6">
-                        <button className="order_btn_primary">ORDER NOW</button>
-                        <button className="order_btn_secondary" onClick={() => navigateTo('/three-bed-rooms')}>LEARN MORE</button>
+                        <button className="order_btn_primary">CUSTOM HOME</button>
+                        <button className="order_btn_secondary">EXISTING HOMES</button>
                     </div>
                 </div>
             </div>
