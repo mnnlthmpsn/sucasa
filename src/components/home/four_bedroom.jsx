@@ -11,7 +11,7 @@ export const FourBedRoom = () => {
             <div className="snap-end h-screen w-screen bg-cover bg-center text-white bg-[url('/images/4_hero_2.jpg')]">
                 <div className="container">
                     <div className="text-white">
-                        <p className="text-center font-gothamBold text-[45px] pt-[12vh]">4 Bedrooms</p>
+                        <p className="text-center font-gothamBold text-[45px] pt-[12vh]">4 Bedroom</p>
                         <p className="font-semibold text-center">Order now for 16 week delivery</p>
                     </div>
                     <div className="flex justify-center w-full pt-[60vh] space-x-6">

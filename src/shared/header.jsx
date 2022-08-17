@@ -9,7 +9,7 @@ export const Header = ({ color }) => {
         { title: '4 Bedroom EXT', route: '/four-bed-rooms' },
         { title: '3 Bedroom', route: '/three-bed-rooms' },
         { title: '3 Bedroom EXT', route: '/three-bed-rooms' },
-        { title: '2 Bedrooms', route: '/two-bed-rooms' },
+        { title: '2 Bedroom', route: '/two-bed-rooms' },
     ]
 
     return (
