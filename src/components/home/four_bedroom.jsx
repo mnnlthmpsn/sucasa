@@ -12,7 +12,7 @@ export const FourBedRoom = () => {
                 <div className="container">
                     <div className="text-white">
                         <p className="text-center font-gothamBold text-[45px] pt-[25vh]">4 Bedroom</p>
-                        <div className="flex justify-center font-semibold text-center">Order now for <p className="border-b px-0 cursor-pointer ml-2"> 16 week delivery</p></div>
+                        <div className="flex relative justify-center font-semibold text-center">Order now for <p className="border-b hover:text-blue-500 px-0 cursor-pointer ml-2"> 16 week delivery</p></div>
                     </div>
                     <div className="flex justify-center w-full pt-[50vh] space-x-6">
                         <button className="order_btn_primary">CUSTOM HOME</button>

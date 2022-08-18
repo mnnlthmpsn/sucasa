@@ -18,7 +18,7 @@ export const HomeHeader = ({ color, show }) => {
                 <div className={`fixed z-40 w-screen items-center justify-center top-0 h-12 bg-white ${show ? 'flex' : 'hidden'}`}>
                     <p className='text-primary font-semibold border-b border-primary cursor-pointer'>Read our Blog</p>
                 </div>
-                <div className="flex z-30 justify-between absolute top-14 max-w-screen-xl mx-auto inset-0 h-24 font-bold bg-transparent w-screen items-center">
+                <div className={`${ show ? 'flex' : 'hidden' } z-30 justify-between fixed top-14 max-w-screen-xl mx-auto inset-0 h-24 font-bold bg-transparent w-screen items-center`}>
                     <div className='cursor-pointer' onClick={() => navigateTo('/')}>
                         <img src="/images/logo_full.png" alt="logo" className='h-24 w-auto' />
                     </div>
