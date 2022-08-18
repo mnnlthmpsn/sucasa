@@ -3,7 +3,7 @@ import { FourBedRoom, ThreeBedRoom, TwoBedRoom } from "../components/home"
 export const Home = () => {
     return (
         <>
-            <div className="hidden lg:block h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+            <div className="hidden lg:block h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory scroll-smooth relative">
                 <FourBedRoom />
                 <ThreeBedRoom />
                 <TwoBedRoom />

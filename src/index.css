@@ -27,11 +27,11 @@ body {
 }
 
 .order_btn_primary {
-    @apply text-xs w-1/4 opacity-95 rounded-full bg-primary py-[12px] text-white font-semibold tracking-wider
+    @apply text-xs w-1/4 opacity-75 rounded-full bg-primary py-[12px] text-white font-semibold tracking-wider
 }
 
 .order_btn_secondary {
-    @apply text-xs w-1/4 opacity-95 rounded-full bg-gray-200 py-[12px] text-primary font-semibold tracking-wider
+    @apply text-xs w-1/4 opacity-75 rounded-full bg-gray-200 py-[12px] text-primary font-semibold tracking-wider
 }
 
 .order_btn {
