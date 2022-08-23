@@ -7,7 +7,6 @@ export const TwoBedRoom = () => {
 
     return (
         <div className="relative">
-            <HomeHeader show={false} color="text-white" />
             <div className="h-1/3 w-screen absolute top-0 bg-gradient-to-b from-primary opacity-75"></div>
             <div className="snap-end h-screen w-screen bg-cover bg-center bg-[url('/images/2_hero_1.png')]">
                 <div className="container absolute inset-0">

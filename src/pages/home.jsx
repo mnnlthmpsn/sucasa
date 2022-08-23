@@ -1,8 +1,10 @@
 import { FourBedRoom, ThreeBedRoom, TwoBedRoom } from "../components/home"
+import { HomeHeader } from "../shared/home_header"
 
 export const Home = () => {
     return (
         <>
+            <HomeHeader show={true} color="text-white" />
             <div className="hidden lg:block h-screen overflow-x-hidden overflow-y-scroll snap-y snap-mandatory scroll-smooth relative">
                 <FourBedRoom />
                 <ThreeBedRoom />

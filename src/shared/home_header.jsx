@@ -1,8 +1,13 @@
+import { useState } from 'react'
 import useUtilities from '../utilities/useUtilities'
+import { Menu } from './menu'
 
 export const HomeHeader = ({ color, show }) => {
 
     const { navigateTo } = useUtilities()
+    const [showMenu, setShowMenu] = useState(false)
+
+    const toggle = () => setShowMenu(!showMenu)
 
     const menuItems = [
         { title: '4 Bedroom', route: '/four-bed-rooms' },
@@ -15,10 +20,10 @@ export const HomeHeader = ({ color, show }) => {
     return (
         <>
             <div className={color}>
-                <div className={`fixed z-40 w-screen items-center justify-center top-0 h-12 bg-white ${show ? 'flex' : 'hidden'}`}>
+                <div className={`fixed z-10 w-screen items-center justify-center top-0 h-12 bg-white ${show ? 'flex' : 'hidden'}`}>
                     <p className='text-primary font-semibold border-b border-primary cursor-pointer'>Read our Blog</p>
                 </div>
-                <div className={`${ show ? 'flex' : 'hidden' } z-30 justify-between fixed top-14 max-w-screen-xl mx-auto inset-0 h-24 font-bold bg-transparent w-screen items-center`}>
+                <div className={`${show ? 'flex' : 'hidden'} z-10 justify-between fixed top-14 max-w-screen-xl mx-auto inset-0 h-24 font-bold bg-transparent w-screen items-center`}>
                     <div className='cursor-pointer' onClick={() => navigateTo('/')}>
                         <img src="/images/logo_full.png" alt="logo" className='h-24 w-auto' />
                     </div>
@@ -30,10 +35,12 @@ export const HomeHeader = ({ color, show }) => {
                     <div className="flex space-x-2">
                         <p className="menu-link">Shop</p>
                         <p className="menu-link">Login</p>
-                        <p className="menu-link">Menu</p>
+                        <p className="menu-link" onClick={toggle}>Menu</p>
                     </div>
                 </div>
             </div>
+
+            <Menu toggle={showMenu} setToggle={toggle} />
         </>
     )
 }

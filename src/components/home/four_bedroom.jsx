@@ -7,7 +7,6 @@ export const FourBedRoom = () => {
 
     return (
         <div className="relative">
-            <HomeHeader show={true} color="text-white" />
             <div className="snap-end h-screen w-screen bg-cover bg-center text-white bg-[url('/images/4_hero_2.jpg')]">
                 <div className="container">
                     <div className="text-white">
