@@ -9,10 +9,9 @@ export const FourBedRoomLanding = () => {
                 </div>
                 <div className="grid grid-cols-3 items-center lg:grid-cols-5 justify-center pt-[62vh] text-white space-x-6">
                     <div className="flex flex-col items-center justify-center">
-                        <p className="text-3xl font-bold">5,470</p>
-                        <p>sq/ft</p>
+                        <p className="text-3xl font-bold">5,470 sq/ft</p>
+                        <p>Executive Suite</p>
                     </div>
-                    <p className="font-bold text-lg">Executive Suite</p>
                     <div className="flex flex-col items-center justify-center">
                         <p className="text-3xl font-bold">4</p>
                         <p>Bedrooms</p>

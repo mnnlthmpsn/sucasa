@@ -5,10 +5,10 @@ export const FourBedRoomSectionTwo = () => {
     const [activeSlide, setActiveSlide] = useState(0)
 
     const slides = [
-        { image: "/images/4_bed_room_1.png", title: "Executive Suite", description: "An executive suite that covers 200sq/ft and with endless features, tuck yourself away in absolute privacy" },
-        { image: "/images/4_bed_room_2.png", title: "Family Area", description: "Thoughtfully situated on the first floor with its own balcony, serves as a get-away from guests in the main living room on those days" },
-        { image: "/images/4_bed_room_3.png", title: "Your Home’s Heart", description: "Accomodating, extremely functional with features you didn’t think of, soft-close doors and rhythm that guide the flow of movement in the heart of your home" },
-        { image: "/images/4_bed_room_1.png", title: "Easy Floor Access", description: "Takes you from the bottom to the top of the world without breaking a sweat" },
+        { image: "/images/4_bed_slide_1.png", title: "Executive Suite", description: "An executive suite that covers 200sq/ft and with endless features, tuck yourself away in absolute privacy" },
+        { image: "/images/4_bed_slide_2.png", title: "Family Area", description: "Thoughtfully situated on the first floor with its own balcony, serves as a get-away from guests in the main living room on those days" },
+        { image: "/images/4_bed_slide_3.png", title: "Your Home’s Heart", description: "Accomodating, extremely functional with features you didn’t think of, soft-close doors and rhythm that guide the flow of movement in the heart of your home" },
+        { image: "/images/4_bed_slide_4.png", title: "Easy Floor Access", description: "Takes you from the bottom to the top of the world without breaking a sweat" },
         { image: "/images/4_bed_room_2.png", title: "Giant Windows", description: "Huge windows from ceiling to the floor allowing for a lot of natural light in your home and improving air quality due to the increased amount of oxygen circulating indoors" }
     ]
 

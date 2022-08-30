@@ -11,8 +11,8 @@ export const FourBedRoomSectionThree = () => {
                     <p className="font-bold text-lg">Ambient Lighting</p>
                     <p>Lighting that projects a cozy atmosphere, enhancing relaxation</p>
                 </div>
-                <img src="/images/4_bed_room_2.png" className="h-56 w-full object-cover" alt="4_bed_room_2" />
-                <img src="/images/4_bed_room_2.png" className="h-56 w-full object-cover" alt="4_bed_room_2" />
+                <img src="/images/ambient_light.png" className="h-56 w-full object-cover" alt="4_bed_room_2" />
+                <img src="/images/perfect_finish.png" className="h-56 w-full object-cover" alt="4_bed_room_2" />
                 <div className="flex flex-col items-start space-y-4 justify-center p-14">
                     <p className="font-bold text-lg">Perfect Finishes</p>
                     <p>Extreme attention to detail, white doors flushing with white wooden room skirts among others giving your home a refined look</p>
